@@ -1,0 +1,7 @@
+/*
+ * list.c - MATLAB external interfaces
+ * the calling syntax is:
+ * out = list(R1,R2,R3);
+ * This is MEX file for MATLAB
+ */
+ 
