@@ -7,10 +7,10 @@ if x==0
     exit(0);
 end
     
-c='C:\Users\HP8\Documents\MATLAB\fingerprint-master\image_store\';
+c='C:\\Users\\HP8\\Documents\\MATLAB\\fingerprint-master\\image_store\\';
 v=strcat(c,num2str(i));
 y=strcat(v,'.jpg');
-pro(y);
+pro(y,'101_1.tif');
 com= database('root','root','','com.mysql.jdbc.Driver','jdbc:mysql://localhost/');
 %x = com.Handle
 a = isconnection(com);

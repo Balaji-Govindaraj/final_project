@@ -1,4 +1,4 @@
-function r=pro(user,inp)
+function r=c_pro(user)
 %Program for Fingerprint Minutiae Extraction
 %
 %Author : Athi Narayanan S
@@ -10,7 +10,7 @@ function r=pro(user,inp)
 %This program extracts the ridges and bifurcation from a fingerprint image
 
 %Read Input Image
-binary_image=im2bw(imread(inp));
+binary_image=im2bw(imread('input_1.tif'));
 
 %Small region is taken to show output clear
 binary_image = binary_image(120:400,20:250);
@@ -128,7 +128,7 @@ figure;imshow(outImg);title('Minutiae');
 
 %second input
 %Read Input Image
-binary_image=im2bw(imread(inp));
+binary_image=im2bw(imread('input_1.tif'));
 
 %Small region is taken to show output clear
 binary_image = binary_image(120:400,20:250);
@@ -245,7 +245,7 @@ figure;imshow(outImg);title('Minutiae');
 %third input
 
 %Read Input Image
-binary_image=im2bw(imread(inp));
+binary_image=im2bw(imread('input_1.tif'));
 
 %Small region is taken to show output clear
 binary_image = binary_image(120:400,20:250);
